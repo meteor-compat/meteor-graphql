@@ -5,10 +5,10 @@ var packages = [
 ];
 
 Package.describe({
-  name: 'swydo:graphql',
+  name: 'compat:graphql',
   version: '2.0.0',
   summary: 'Compiler plugin that supports GraphQL files in Meteor',
-  git: 'https://github.com/swydo/meteor-graphql',
+  git: 'https://github.com/meteor-compat/meteor-graphql',
   documentation: 'README.md',
 });
 
@@ -35,7 +35,7 @@ Package.onUse(function use(api) {
 
 Package.onTest(function test(api) {
   api.use(packages, ['server', 'client']);
-  api.use('swydo:graphql');
+  api.use('compat:graphql');
 
   api.use([
     'meteortesting:mocha',

@@ -1,5 +1,7 @@
 # Meteor GraphQL
 
+> This is fork of https://github.com/swydo/meteor-graphql. The original package is not maintained anymore. We created this to create compatibility with Meteor 3.
+
 Compiler plugin that supports GraphQL files in Meteor
 
 [![Build Status](https://travis-ci.org/Swydo/meteor-graphql.svg?branch=master)](https://travis-ci.org/Swydo/meteor-graphql)
@@ -9,7 +11,7 @@ Compiler plugin that supports GraphQL files in Meteor
 
 ## Installation
 ```
-meteor add swydo:graphql
+meteor add compat:graphql
 ```
 
 ## Usage
